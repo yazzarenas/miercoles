@@ -5,3 +5,17 @@ author:Yazz arenas;
 Last Date:94 macrh 2015;
 
 */
+
+/* es importante asignar un valor x default a todas las imagenes que se incrusten en el documento htm
+*/
+
+img{
+	width: 100%;
+}
+/* se le asigna estilos a la etiqueta del documento html que contenga el ID contenedo-principal
+*/
+
+#contenedor-principal{
+	background-color: blue:
+	width: 900px;
+}
