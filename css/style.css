@@ -8,14 +8,67 @@ Last Date:94 macrh 2015;
 
 /* es importante asignar un valor x default a todas las imagenes que se incrusten en el documento htm
 */
+/* es una buena practica resetear todos los margenes para que todo el navegador use valores niciales desde cero */
 
+*{margin: 0;
+border: 0;
+padding: 0;}
 img{
 	width: 100%;
 }
+body{ font-size: 16px;}
 /* se le asigna estilos a la etiqueta del documento html que contenga el ID contenedo-principal
 */
 
 #contenedor-principal{
-	background-color: blue:
+
+	background-color: pink;
+margin: 0 auto;
 	width: 900px;
+} 
+#galeria{
+	margin: 2em;
+	background-color: #D358F7;
+	padding: 2em 0.5em;
+	width: 90%;
+}
+#galeria ul{
+	list-style: none;
+	text-align: center;
+	margin: 0:;
+}
+#galeria ul li{
+	list-style: none;
+	width: 220px;
+	margin: 1em;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+.redonda{
+border-radius: 50%;
+box-shadow: 0 10px 10px rgba(255,255,255,0.8);
+
+}
+
+.redonda:hover{
+
+
+box-shadow: 0 10px 10px rgba(22,255,99,0.8);
+
+}
+
+#galeria ul li:hover .mensaje-oculto{
+	display: block;
+}
+
+.mensaje-oculto{
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+	display: none;
+position: absolute;
+bottom: 0;
+left: 0;
+	
+
 }
